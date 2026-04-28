@@ -140,6 +140,7 @@ body::before {
   }
   body {
     @apply text-foreground;
+    overflow-x: hidden;
   }
   html {
     @apply font-sans;
