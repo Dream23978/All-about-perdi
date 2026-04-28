@@ -162,7 +162,7 @@ const Image_carousel = () => {
       </div>
 
       <div className='relative h-[200px] w-[320px] md:h-[220px] md:w-[350px] lg:h-[250px] lg:w-[400px] border-2 border-black shadow drop-shadow-[8px_8px_0px_rgba(174,182,193,1)] hover:scale-105 transition-all duration-300'>
-        <Image src="/google.jpeg" alt="Google" fill className="object-cover"/>
+        <Image src="/GOOGLE.jpeg" alt="Google" fill className="object-cover"/>
       </div>
 
       <div className='relative h-[200px] w-[320px] md:h-[220px] md:w-[350px] lg:h-[250px] lg:w-[400px] border-2 border-black shadow drop-shadow-[8px_8px_0px_rgba(174,182,193,1)] hover:scale-105 transition-all duration-300'>

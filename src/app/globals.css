@@ -49,12 +49,20 @@
 }
 
 body {
-  background-color: #ffffff !important;
+  background-color: #ffffff;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-color: #ffffff;
   background-image:
     linear-gradient(rgba(30, 30, 30, 0.18) 1.5px, transparent 1.5px),
-    linear-gradient(90deg, rgba(30, 30, 30, 0.18) 1.5px, transparent 1.5px) !important;
-  background-size: 40px 40px !important;
-  background-attachment: fixed !important;
+    linear-gradient(90deg, rgba(30, 30, 30, 0.18) 1.5px, transparent 1.5px);
+  background-size: 40px 40px;
 }
 
 :root {
