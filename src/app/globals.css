@@ -48,18 +48,6 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-html {
-  background-color: #ffffff;
-  background-image:
-    linear-gradient(rgba(30, 30, 30, 0.18) 1.5px, transparent 1.5px),
-    linear-gradient(90deg, rgba(30, 30, 30, 0.18) 1.5px, transparent 1.5px);
-  background-size: 40px 40px;
-  background-attachment: fixed;
-}
-
-body {
-  background: transparent;
-}
 
 :root {
   --background: oklch(1 0 0);
@@ -136,7 +124,6 @@ body {
   }
   body {
     @apply text-foreground;
-    background: transparent;
   }
   html {
     @apply font-sans;
