@@ -5,7 +5,7 @@ import { Demo } from '@/components/ui/navbar';
 
 const Page = () => {
   return (
-    <div>
+    <div className="pt-16">
     <Demo/>
       <Headline/>
       <Herosection />
